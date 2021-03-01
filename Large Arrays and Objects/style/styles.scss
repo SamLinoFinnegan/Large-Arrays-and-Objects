@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  
+  body {
+    width: 80%;
+    margin: 0px auto;
+    background-color:rgb(163, 163, 255)
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+  }
+  
+  .btns {
+    padding: 10px;
+    border-radius: 7px;
+    
+  }
+  
+  .content {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+  }
+  
+  .list {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .woman {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .woman__name {
+    display: flex;
+    align-self: center;
+  }
+  
+  .expiringcards {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .averege-age-button {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  .averege {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    text-align: center;
+  }
+  .row {
+    flex-flow: row wrap;
+  }
+  
+  .persondata {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .persondata--left {
+    width: 300px;
+  }
+  
+  .persondata--right {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .person--image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .match--image {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .matches {
+    width: 120px;
+    height: 80px;
+  }
+  
+  .persontomatchdata {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .persontomatchdata--right .match--image {
+    width: 150px;
+    height: 150px;
+  }
